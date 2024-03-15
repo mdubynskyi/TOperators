@@ -33,18 +33,18 @@ static string timeSince(const high_resolution_clock::time_point& start);
 
 static set<pattern> generatePermutations(const pattern& pat) {
     set<pattern> permutations;
-    // Logic to generate all permutations and modifications of pat, including its transpose
+    // Generate all permutations and modifications of pat, including its transpose
     return permutations;
 }
 
 static void insertAllPermutations(const pattern& pat) {
     auto perms = generatePermutations(pat);
-    // Logic to insert all permutations of pat into a global or passed set
+    // Insert all permutations of pat into a global or passed set
 }
 
 static void eraseAllPermutations(const pattern& pat) {
     auto perms = generatePermutations(pat);
-    // Logic to erase all permutations of pat from a global or passed set
+    // Erase all permutations of pat from a global or passed set
 }
 
 static void readPatternFile(const string& filePath) {
@@ -58,17 +58,17 @@ static void readPatternFile(const string& filePath) {
 
     string line;
     while (getline(file, line)) {
-        // Logic to process each line from the pattern file
+        // Process each line from the pattern file
     }
 }
 
 static bool erasePattern(SO6& s) {
-    // Logic to erase a pattern
+    // Erase a pattern
     return true; // or false depending on whether the pattern was erased
 }
 
 static void recordPattern(SO6& s, ofstream& of) {
-    // Logic to record a pattern
+    // Record a pattern
 }
 
 static void eraseAndRecordPattern(SO6& s, ofstream& of) {
@@ -82,7 +82,7 @@ static high_resolution_clock::time_point now() {
 }
 
 static string timeSince(const high_resolution_clock::time_point& start) {
-    // Logic to calculate and format the time since `start`
+    // Calculate and format the time since `start`
     return string();
 }
 
